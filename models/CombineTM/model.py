@@ -98,5 +98,5 @@ class CombinedTM(nn.Module):
         return loss
 
 
-class Model(CombineTM):
+class Model(CombinedTM):
     pass
